@@ -1,3 +1,13 @@
+:root {
+  --text: #434455;
+  --white-background: #fff;
+  --dark: #2e2f42;
+  --light: #f4f4fd;
+  --accent: #e7e9fc
+  --pressed-state: #404BBF;
+  --primary-brand: #4d5ae5
+}
+
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -11,8 +21,8 @@ ul, ol {
 
 .body-style {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background: #fff;
+  color: var(--text);
+  background: var(--white-background);
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -26,7 +36,7 @@ ul, ol {
 }
 
 .logo {
-  color: #4d5ae5;
+  color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -37,12 +47,12 @@ ul, ol {
 }
 
 .logo-right {
-  color: #2e2f42;
+  color: var(--dark);
 }
 
 .logo-right:hover,
 .logo:focus .logo-right {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .head-list {
@@ -52,7 +62,7 @@ ul, ol {
 
 .head-list-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -61,7 +71,7 @@ ul, ol {
 
 .head-list-link:focus,
 .head-list-link:hover {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .mail-tel {
@@ -74,7 +84,7 @@ ul, ol {
 }
 
 .head-address-link {
-  color: #434455;
+  color: var(--text);
   font-size: 16px;
   text-decoration: none;
   line-height: 1.5;
@@ -83,11 +93,11 @@ ul, ol {
 
 .head-address-link:focus,
 .head-address-link:hover {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .hero {
-  background: #2e2f42;
+  background: var(--dark);
   padding-left: 472px;
   padding-right: 472px;
   padding-top: 188px;
@@ -95,7 +105,7 @@ ul, ol {
 }
 
 .hero-title {
-  color: #fff;
+  color: var(--white-background);
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
@@ -109,18 +119,18 @@ ul, ol {
   margin-left: auto;
   margin-right: auto;
   margin-top: 48px;
-  color: #fff;
+  color: var(--white-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
 
-  background: #4d5ae5;
+  background: var(--primary-brand);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background: var(--pressed-state);
 }
 
 .benefits {
@@ -131,7 +141,7 @@ ul, ol {
 }
 
 .benefits-title {
-  color: #2e2f42;
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -150,7 +160,7 @@ ul, ol {
 }
 
 .benefits-list-header {
-  color: #2e2f42;
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -160,7 +170,7 @@ ul, ol {
 }
 
 .benefits-list-text {
-  color: #434455;
+  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -170,7 +180,7 @@ ul, ol {
 }
 
 .team {
-  background: #f4f4fd;
+  background: var(--light);
   padding-left: 156px;
   padding-right: 156px;
   padding-top: 120px;
@@ -178,7 +188,7 @@ ul, ol {
 }
 
 .team-header {
-  color: #2e2f42;
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -196,11 +206,11 @@ ul, ol {
 }
 
 .team-list-item {
-  background: #fff;
+  background: var(--white-background);
 }
 
 .team-list-header {
-  color: #2e2f42;
+  color: var(--dark);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -213,7 +223,7 @@ ul, ol {
 }
 
 .team-list-text {
-  color: #434455;
+  color: var(--text);
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
@@ -231,7 +241,7 @@ ul, ol {
 }
 
 .portfolio-header {
-  color: #2e2f42;
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -249,11 +259,11 @@ ul, ol {
 }
 
 .portfolio-list-item {
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
 }
 
 .portfolio-list-header {
-  color: #2e2f42;
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -266,7 +276,7 @@ ul, ol {
 }
 
 .portfolio-list-text {
-  color: #434455;
+  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -277,18 +287,18 @@ ul, ol {
 }
 
 .contacts {
-  background: #2e2f42;
+  background: var(--dark);
   padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .logo-down-right {
-  color: #f4f4fd;
+  color: var(--light);
 }
 
 .contacts-text {
-  color: #f4f4fd;
+  color: var(--light);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
