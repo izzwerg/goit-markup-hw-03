@@ -141,6 +141,7 @@ ul, ol {
 }
 
 .benefits-title {
+  display: none;
   color: var(--dark);
   text-align: center;
   font-size: 36px;
