@@ -19,6 +19,10 @@ ul, ol {
 	padding-left: 0;
 }
 
+img {
+	display: block;
+}
+
 .body-style {
   font-family: 'Roboto', sans-serif;
   color: var(--text);
