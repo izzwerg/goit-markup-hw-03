@@ -142,15 +142,10 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
-
-  margin: 0;
 }
 
 .hero-button {
-
   padding: 16px 32px;
-
-
   border-radius: 4px;
   cursor: pointer;
   margin-left: auto;
@@ -171,6 +166,19 @@ img {
   background: var(--pressed-state);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .benefits {
   padding-left: 156px;
   padding-right: 156px;
@@ -178,21 +186,11 @@ img {
   padding-bottom: 120px;
 }
 
-.benefits-title {
-  display: none;
-  color: var(--dark);
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-
-  margin: 0;
-}
-
 .benefits-list {
   list-style-type: none;
-  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .benefits-list-header {
@@ -202,7 +200,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
 
-  margin: 0;
+  margin-bottom: 8px;
 }
 
 .benefits-list-text {
@@ -210,9 +208,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin: 0;
-
-  margin-bottom: 8px;
 }
 
 .team {
@@ -230,19 +225,22 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-
-  margin: 0;
+  margin-bottom: 72px;
 }
 
 .team-list {
   list-style-type: none;
-  margin: 0;
-
-  margin-top: 72px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .team-list-item {
   background: var(--white-background);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list-header {
