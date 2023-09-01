@@ -24,6 +24,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 
 img {
@@ -44,6 +45,7 @@ img {
   width: 1128px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .head-style {
@@ -199,7 +201,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-
   margin-bottom: 8px;
 }
 
@@ -250,8 +251,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  margin: 0;
-
   margin-top: 32px;
   margin-bottom: 8px;
 }
@@ -262,8 +261,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin: 0;
-
   margin-bottom: 32px;
 }
 
@@ -281,18 +278,16 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-
-  margin: 0;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
-  list-style-type: none;
-  margin: 0;
-
   margin-top: 72px;
+  gap: 24px;
 }
 
 .portfolio-list-item {
+  width: 360px;
   border: 1px solid var(--accent);
 }
 
