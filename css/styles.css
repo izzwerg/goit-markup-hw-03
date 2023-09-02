@@ -293,7 +293,7 @@ img {
 
 .portfolio-list-item {
   border: 1px solid var(--accent);
-  height: calc((100% - 20px) / 3);
+  height: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-header {
