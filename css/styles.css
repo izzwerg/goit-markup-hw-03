@@ -290,7 +290,6 @@ img {
   display: flex;
   gap: 24px;
 }
-
 .portfolio-list-item {
   border: 1px solid var(--accent);
   height: calc((100% - 48px) / 3);
