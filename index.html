@@ -11,10 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
@@ -50,12 +47,14 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-button">Order Service</button>
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-button">Order Service</button>
+        </div>
       </section>
       <section class="benefits">
         <h2 class="visually-hidden">Our Benefits</h2>
-        <ul class="benefits-list" class="container">
+        <ul class="benefits-list">
           <li class="benefits-list-item">
             <h3 class="benefits-list-header">Strategy</h3>
             <p class="benefits-list-text">
@@ -89,7 +88,7 @@
       <section class="team">
         <h2 class="team-header">Our Team</h2>
         <div class="container">
-          <ul class="team-list" class="container">
+          <ul class="team-list">
             <li class="team-list-item">
               <img
                 src="./images/team1.jpg"
