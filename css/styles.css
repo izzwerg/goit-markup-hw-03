@@ -44,9 +44,9 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
   margin: 0 auto;
 }
 
@@ -56,6 +56,11 @@ img {
   margin-right: auto;
   display: flex;
   justify-content: center;
+}
+
+.head-all {
+  display: flex;
+  justify-content: space-between;
 }
 
 .head-nav {
@@ -111,8 +116,9 @@ img {
 }
 
 .mail-tel {
+  display: inline-block;
   font-style: normal;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .head-address {
