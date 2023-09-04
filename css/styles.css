@@ -152,6 +152,14 @@ img {
   justify-content: center;
 }
 
+.pseudocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
 .hero-title {
   color: var(--white-background);
   text-align: center;
