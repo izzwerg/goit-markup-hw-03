@@ -92,7 +92,8 @@ img {
 }
 
 .head-list-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .head-list-link {
@@ -120,6 +121,10 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 40px;
+}
+
+.head-address-item {
+  padding: 24px 0;
 }
 
 .head-address-link {
@@ -229,10 +234,7 @@ img {
 
 .team {
   background: var(--light);
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-header {
