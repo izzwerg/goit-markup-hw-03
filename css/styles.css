@@ -92,7 +92,6 @@ img {
 }
 
 .head-list-item {
-
 }
 
 .head-list-link {
@@ -286,7 +285,7 @@ img {
 }
 
 .portfolio {
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -313,7 +312,7 @@ img {
 
 .portfolio-list-info {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent);
   border-top: none;
 }
 
@@ -341,6 +340,7 @@ img {
 }
 
 .logo-down {
+  display: inline-block;
   color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -350,7 +350,6 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .logo-down-right {
